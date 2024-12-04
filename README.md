@@ -1,7 +1,5 @@
-# music-genre-classification
-A hybrid approach combining graph-based and audio-based techniques for accurate music genre classification.
-
 **Music Genre Classification**
+A hybrid approach combining graph-based and audio-based techniques for accurate music genre classification.
 
 This repository explores the use of Machine Learning (ML) and Deep Learning (DL) techniques for music genre classification. The project utilizes the GTZAN dataset, a collection of audio clips from ten music genres.
 
@@ -14,19 +12,26 @@ The GTZAN dataset is used for this project. It is available on Kaggle: [https://
 The code explores the dataset and visualizes various audio features:
 
 * **Waveform:**
-[Image of waveform]
+![image](https://github.com/user-attachments/assets/f5b3ee88-4fc4-403c-8a66-dd755572d536)
+
 
 * **Spectrogram:**
-[Image of spectrogram]
+![image](https://github.com/user-attachments/assets/5681d41b-28c0-4db6-b6f3-dc90408254ef)
+![image](https://github.com/user-attachments/assets/e028aecd-b7b3-44fa-8502-350b15bc4009)
+The vertical axis represents frequencies (from 0 to 10kHz), and the horizontal axis represents the time of the clip.
 
 * **Spectral Rolloff:**
-[Image of spectral rolloff]
+![image](https://github.com/user-attachments/assets/fddd685b-e957-49dc-89a9-fac3ff64acd7)
+
 
 * **Chroma Features:**
-[Image of chroma features]
+![image](https://github.com/user-attachments/assets/083284cc-ca2e-4108-83a0-28c911de34e7)
+
+
 
 * **Zero Crossing Rate:**
-[Image of zero crossing rate]
+![image](https://github.com/user-attachments/assets/a7cc1093-fb43-4a01-bc3e-17497ce0a0dc)
+
 
 **Model Building and Training**
 
